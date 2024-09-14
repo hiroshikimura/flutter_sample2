@@ -1,12 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:english_words/english_words.dart';
-// import 'package:flutter/rendering.dart';
-import 'package:flutter_native_splash/flutter_native_splash.dart';
+import 'package:flutter/rendering.dart';
 
 void main() {
-  // debugPaintSizeEnabled = true;
-  WidgetsBinding widgetsBinding = WidgetsFlutterBinding.ensureInitialized();
-  FlutterNativeSplash.preserve(widgetsBinding: widgetsBinding);
+  debugPaintSizeEnabled = true;
   runApp(const MyApp());
 }
 

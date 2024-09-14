@@ -13,7 +13,6 @@ dependencies:
 
   cupertino_icons: ^1.0.6
   english_words: ^4.0.0
-  flutter_native_splash: ^2.4.1
 
 dev_dependencies:
   flutter_test:
@@ -23,15 +22,3 @@ dev_dependencies:
 
 flutter:
   uses-material-design: true
-
-flutter_native_splash:
-  color: '#add8e6'
-  image: 'assets/background.png'
-  color_dark: '#262626'
-  image_dark: 'assets/background.png'
-  fullscreen: true
-  android_12:
-    icon_background_color: '#add8e6'
-    image: 'assets/background.png'
-    icon_background_color_dark: '#262626'
-    image_dark: 'assets/background.png'
